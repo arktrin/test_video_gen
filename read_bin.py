@@ -12,5 +12,6 @@ im = raw.reshape((320,512,3))
 print im.shape
 
 plt.imshow(im)
+plt.tight_layout()
 # plt.colorbar()
 plt.show()
